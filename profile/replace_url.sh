@@ -1,10 +1,24 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
-BASEURL="https://ix.poema.eu.org"
+BASEURL="${BASEURL:-https://ix.poema.eu.org/}"
 
-# process all markdown files recursively
-find . -type f -name "*.md" | while read -r file; do
-  sed -E -i \
-    "s|\[([^\]]+)\]\(([^)]+)\.md\)|[\1](${BASEURL}/\2)|g" \
-    "$file"
-done
+if [[ $# -ne 2 ]]; then
+  echo "Usage: $0 <input_file> <output_file>" >&2
+  exit 1
+fi
+
+INPUT="$1"
+OUTPUT="$2"
+
+if [[ ! -f "$INPUT" ]]; then
+  echo "Error: input file not found: $INPUT" >&2
+  exit 1
+fi
+
+# Normalize BASEURL to always end with exactly one slash
+BASEURL="${BASEURL%/}/"
+
+sed -E \
+  "s|\[([^]]+)\]\(([^)#]+)\.md(#[^)]*)?\)|[\1](${BASEURL}\2\3)|g" \
+  "$INPUT" > "$OUTPUT"

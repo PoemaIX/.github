@@ -1,9 +1,9 @@
 # Poema IX
 
-> 🌐 [English](https://ix.poema.eu.org/README_en)  
+> 🌐 [English](README_en.md)  
 
 ## 介紹 | Introduction
-Poema IX 是一個非營利的分布式[虛擬 IX](https://ix.poema.eu.org/Virtual-IXP) ，各站點之間由 [vxlan-controller](https://github.com/PoemaIX/vxlan-controller) 互連  
+Poema IX 是一個非營利的分布式[虛擬 IX](Virtual-IXP.md) ，各站點之間由 [vxlan-controller](https://github.com/PoemaIX/vxlan-controller) 互連  
 同時作為一個BGP實驗交流和學習的平台  
 
 這個 IX 比較特別之處，首先是內網只使用 **IPv6 link local** 地址  
@@ -32,10 +32,10 @@ IXPDB: [https://ixpdb.euro-ix.net/en/ixpdb/ixp/1061/](https://ixpdb.euro-ix.net/
 1. VM接入 (如果你沒有台灣 PoP)
 2. 隧道接入 (如果你已經有台灣 PoP)
 
-每個 PoP 有不同的接入方式，請參考 [PoP List](https://ix.poema.eu.org/PoP-List)
+每個 PoP 有不同的接入方式，請參考 [PoP List](PoP-List.md)
 
 * 非商業性質。禁止商業使用，例如使用 Poema IX 交換商業流量。請聯系我們以獲取更多信息  
-* IX本身不存在IP Transit。妳也可以在IX裡面自行尋找[其他參與者](https://ix.poema.eu.org/members)索要IP Transit  
+* IX本身不存在IP Transit。妳也可以在IX裡面自行尋找[其他參與者](members.md)索要IP Transit  
 * 我們強制要求與`RS Peering`進行BGP連接  
 * 若沒有和`RS Peering`進行BGP連接並**發送至少一條IPv6路由**，長期不連接可能會被視為不活躍成員被清理  
 
@@ -68,8 +68,8 @@ IXPDB: [https://ixpdb.euro-ix.net/en/ixpdb/ixp/1061/](https://ixpdb.euro-ix.net/
 * RS Peering
     * AS199594
     * 是一個**普通RS**
-    * [過濾規則](https://ix.poema.eu.org/RS#default-filtering-policy)
-    * [支援的Community屬性](https://ix.poema.eu.org/RS#announcement-control-via-bgp-communities)
+    * [過濾規則](RS.md#default-filtering-policy)
+    * [支援的Community屬性](RS.md#announcement-control-via-bgp-communities)
     * 普通人也能連接，RS有做過濾
     * 懶人包: **把RS 當作 peer 對象來連線**
     * 我們強制要求與 `RS Peering` 進行BGP連接，並發送至少一條IPv6路由
@@ -111,7 +111,7 @@ IXPDB: [https://ixpdb.euro-ix.net/en/ixpdb/ixp/1061/](https://ixpdb.euro-ix.net/
 
 ## 成員 | Members
 
-See member list: [Members](https://ix.poema.eu.org/members)
+See member list: [Members](members.md)
 
 
 ## 限制 | Limitations
@@ -167,7 +167,7 @@ See member list: [Members](https://ix.poema.eu.org/members)
 * 資源合理使用。禁止長時間消耗/佔滿 CPU/網路頻寬等資源，例如 rclone 轉存/挖礦，**或是讓我感覺家裡網路很卡**(這是最主要的判斷方式)
 * 禁止用於爬蟲/帳號註冊等，可能會使 IP 被標記為 bot(俗稱 IP 被汙染)之行為
 * 禁止架設耗資源的程式，如線上遊戲
-* Poema IX 由多人運營，請遵守 [PoP 各自的規範](https://ix.poema.eu.org/PoP-List)
+* Poema IX 由多人運營，請遵守 [PoP 各自的規範](PoP-List.md)
 
 ## 聯絡方式 | Contact
 * mailto: ix@kskb.eu.org
