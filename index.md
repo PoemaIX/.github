@@ -1,5 +1,7 @@
 # Poema IX
 
+> 🌐 [English](README.md)  
+
 ## 介紹 | Introduction
 Poema IX 是一個非營利的分布式[虛擬 IX](Virtual-IXP.md) ，各站點之間由 [vxlan-controller](https://github.com/PoemaIX/vxlan-controller) 互連  
 同時作為一個BGP實驗交流和學習的平台  
@@ -175,7 +177,7 @@ Poema IX 的正常運作，離不開下列群友的貢獻
 
 | 名單                                      | 致謝 |
 |------------------------------------------|----------|
-| [Muilties Network](https://muilties.com/)| <li>感謝<ins>Muilties Network</ins>贊助 JORD-HOME 站點，讓成員可以更低延遲接入  Poema-IX</li><li>成為transit sponsor</li><li>幫助需要的人把路由 Transit 到 STUIX</li> |
+| [Muilties Network](https://muilties.com/)| <li>感謝<ins>Muilties Network</ins>贊助 JORD-HOME 站點，讓成員可以更低延遲接入 Poema-IX</li><li>感謝成為transit sponsor</li><li>幫助需要的人把路由 Transit 到 STUIX</li> |
 | [RADISHCLOUD](https://radishnet.work/)   | <li>感謝<ins>RADISHCLOUD</ins>贊助了 LUOBO-TWDS 站點</li><li>讓成員可以更低延遲接入 Poema-IX.</li> |
 | [MrSheepNET LTD](https://mrsheep.io/)    | <li>感謝<ins>MrSheepNET LTD</ins>成為transit sponsor</li><li>幫助需要的人把路由 Transit 到 STUIX</li> |
 | [MoeDove LLC](https://www.moedove.com/)  | <li>感謝<ins>MoeDove LLC</ins>成為transit sponsor</li><li>幫助需要的人把路由 Transit 到 STUIX</li> |

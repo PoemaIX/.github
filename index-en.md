@@ -1,5 +1,7 @@
 # Poema IX
 
+> 🌐 [中文](README_zh.md)  
+
 ## Introduction
 
 Poema IX is a non-profit distributed [Virtual IXP](https://bgp.tools/kb/virtual-ixp) interconnected by [vxlan-controller](https://github.com/PoemaIX/vxlan-controller) that serves as a platform for BGP experimental exchange and learning in Taiwan.  
@@ -165,7 +167,7 @@ We want to acknowledge the following sponsors for their sponsored resources and 
 
 | List                                     | Acknowledgements     |
 |------------------------------------------|----------------------|
-| [Muilties Network](https://muilties.com/)| <li>Thank to <ins>Muilties Network</ins> sponses the JORD-HOME site</li><li> And be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
+| [Muilties Network](https://muilties.com/)| <li>Thank to <ins>Muilties Network</ins> sponses the JORD-HOME site</li><li>And thanks to be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
 | [RADISHCLOUD](https://radishnet.work/)   | <li>Thank to <ins>RADISHCLOUD</ins> sponses the LUOBO-TWDS site</li><li>Allow members to join Poema-IX with lower latency.</li> |
 | [MrSheepNET LTD](https://mrsheep.io/)    | <li>Thank to <ins>MrSheepNET LTD</ins> to be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
 | [MoeDove LLC](https://www.moedove.com/)  | <li>Thank to <ins>MoeDove LLC</ins> to be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
