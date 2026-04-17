@@ -165,10 +165,10 @@ We want to acknowledge the following sponsors for their sponsored resources and 
 
 | List                                     | Acknowledgements     |
 |------------------------------------------|----------------------|
+| [Muilties Network](https://muilties.com/)| <li>Thank to <ins>Muilties Network</ins> sponses the JORD-HOME site</li><li> And be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
+| [RADISHCLOUD](https://radishnet.work/)   | <li>Thank to <ins>RADISHCLOUD</ins> sponses the LUOBO-TWDS site</li><li>Allow members to join Poema-IX with lower latency.</li> |
 | [MrSheepNET LTD](https://mrsheep.io/)    | <li>Thank to <ins>MrSheepNET LTD</ins> to be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
 | [MoeDove LLC](https://www.moedove.com/)  | <li>Thank to <ins>MoeDove LLC</ins> to be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
 | [Liu Haoran](https://www.pysio.online)   | <li>Thank to <ins>Liu Haoran</ins> to be a transit sponsor</li><li>Transits our routes to STUIX and PCCWG.</li> |
-| [Muilties Network](https://muilties.com/)| <li>Thank to <ins>Muilties Network</ins> sponses the JORD-HOME site</li><li> And be a transit sponsor</li><li>Transits our routes to STUIX.</li> |
-| [RADISHCLOUD](https://radishnet.work/)   | <li>Thank to <ins>RADISHCLOUD</ins> sponses the LUOBO-TWDS site</li><li>Allow members to join Poema-IX with lower latency.</li> |
 
 [^1]: True story: Someone bought a swag gift card unintentionally, topped it up with a Taiwan VPN. Then the police found the top-uping IP is from a Taiwan IP. Then the computer has been seized and the server holder has been arrested by the police.
